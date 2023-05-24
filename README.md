@@ -1,5 +1,7 @@
 # benchmark-script
 Works on Ubuntu, centOS, MacOS, etc
+## How to run
+wget bit.ly/geekbench5 && bash vpstest
 
 ## Geekbench5 Test items
 Single-Core & Multi-Core
