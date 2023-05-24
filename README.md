@@ -3,7 +3,7 @@ Works on Ubuntu, centOS, MacOS, etc
 ## How to run
 In the command line, paste the following and enter.
 ```
-curl -L -o a.sh https://rebrand.ly/geekbench5 && bash geekbench5
+curl -L -o geekbench5.sh https://rebrand.ly/geekbench5 && bash geekbench5.sh
 ```
 ## Geekbench5 Test items
 Single-Core & Multi-Core
