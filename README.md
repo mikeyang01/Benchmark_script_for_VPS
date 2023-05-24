@@ -1,8 +1,10 @@
 # benchmark-script
 Works on Ubuntu, centOS, MacOS, etc
 ## How to run
+In the command line, paste the following and enter.
+```
 wget bit.ly/geekbench5 && bash vpstest
-
+```
 ## Geekbench5 Test items
 Single-Core & Multi-Core
   <br> AES-XTS
