@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-DIR=${HOME}/vpsTest
+DIR=${HOME}/geekbench5
 if [ ! -d $DIR ];then
     mkdir $DIR
 fi
