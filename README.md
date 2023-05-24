@@ -1,5 +1,5 @@
 # benchmark-script
-Works on Ubuntu, centOS, MacOS, etc
+Works on Linux like Ubuntu, centOS, and etc.
 ## How to run
 In the command line, paste the following and enter.
 ```
