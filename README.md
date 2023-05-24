@@ -1,5 +1,8 @@
 # benchmark-script
-Works on Linux like Ubuntu, centOS, debian and etc.
+Execute benchmark testing automatically and show detailed results online. 
+Powered by Geekbench.<br>
+Works on Linux like Ubuntu, centOS, debian and etc.<br>
+Best for testing VPS, cloud server...
 ## How to run
 In the command line, paste the following and enter.
 ```
