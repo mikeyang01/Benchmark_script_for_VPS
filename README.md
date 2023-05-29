@@ -8,6 +8,11 @@ In the command line, paste the following and enter.
 ```
 curl -L -o geekbench5.sh https://rebrand.ly/geekbench5 && bash geekbench5.sh
 ```
+## How long will the test cost?
+Depends on CPU, around 1~5 minutes
+
+## Sample results
+![alt text](https://github.com/mikeyang01/benchmark-script/blob/master/gb5-sample.jpg)
 ## Geekbench5 Test items
 Single-Core & Multi-Core
   <br> AES-XTS
