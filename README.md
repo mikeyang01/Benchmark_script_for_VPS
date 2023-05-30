@@ -1,4 +1,4 @@
-# benchmark-script
+# CPU benchmark script for VPS
 Execute benchmark testing automatically and show detailed results online. 
 Powered by Geekbench.<br>
 Works on Linux like Ubuntu, centOS, debian and etc.<br>
