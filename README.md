@@ -6,7 +6,7 @@ Best for testing VPS, cloud server...
 ## How to run
 In the command line, paste the following and enter.
 ```
-curl -L -o geekbench5.sh https://rebrand.ly/gk5 && bash geekbench5.sh
+curl -L -o gk5.sh https://rebrand.ly/gk5 && bash gk5.sh
 ```
 ## How long will the test cost?
 Depends on CPU, around 1~5 minutes
