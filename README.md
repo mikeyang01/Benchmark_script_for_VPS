@@ -1,4 +1,23 @@
-# CPU benchmark script for VPS
+# Network Speedtest for VPS
+How to run
+In the command line, paste the following and enter.
+```
+curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+```
+Output:
+```
+Retrieving speedtest.net configuration...
+Retrieving speedtest.net server list...
+Testing from Comcast Cable (x.x.x.x)...
+Selecting best server based on ping...
+Hosted by FiberCloud, Inc (Seattle, WA) [12.03 km]: 44.028 ms
+Testing download speed........................................
+Download: 32.29 Mbit/s
+Testing upload speed..................................................
+Upload: 5.18 Mbit/s
+```
+
+# CPU Benchmark script for VPS
 Execute benchmark testing automatically and show detailed results online. 
 Powered by Geekbench.<br>
 Works on Linux like Ubuntu, centOS, debian and etc.<br>
