@@ -1,6 +1,6 @@
 # Network Speedtest for VPS
 Originally from https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py<br>
-How to run
+## How to run
 In the command line, paste the following and enter.
 ```
 curl -L https://rebrand.ly/speed-cli | python -
