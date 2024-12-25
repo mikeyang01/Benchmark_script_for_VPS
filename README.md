@@ -30,7 +30,7 @@ Originally from https://raw.githubusercontent.com/sivel/speedtest-cli/master/spe
 ## How to run
 In the command line, paste the following and enter.
 ```
-curl -L https://rebrand.ly/speed-cli | python -
+curl -L https://rebrand.ly/speed-cli | python3 -
 ```
 Output:
 ```
