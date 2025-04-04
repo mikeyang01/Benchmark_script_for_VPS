@@ -12,7 +12,7 @@ curl -L -o gk5.sh https://rebrand.ly/gk5 && bash gk5.sh
 Depends on CPU, around 1~5 minutes
 
 ## Sample results
-![alt text](https://github.com/mikeyang01/benchmark-script/blob/master/gb5-sample.jpg)
+<img src="https://github.com/mikeyang01/benchmark-script/blob/master/gb5-sample.jpg" width="400">
 ## part of Geekbench5 Test items
 Single-Core & Multi-Core
   <br> AES-XTS
@@ -46,3 +46,5 @@ Upload: 5.18 Mbit/s
 ```
 # GPU stress test
 https://cznull.github.io/vsbm
+
+<img src="https://raw.githubusercontent.com/mikeyang01/benchmark-script/master/gpu_stress_test.jpeg" width="400">
