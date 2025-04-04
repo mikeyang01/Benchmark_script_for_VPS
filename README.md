@@ -44,7 +44,7 @@ Download: 32.29 Mbit/s
 Testing upload speed..................................................
 Upload: 5.18 Mbit/s
 ```
-# GPU stress test
+# GPU stress test on website
 https://cznull.github.io/vsbm
 
 <img src="https://raw.githubusercontent.com/mikeyang01/benchmark-script/master/gpu_stress_test.jpeg" width="400">
