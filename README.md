@@ -1,3 +1,7 @@
+# VPS Benchmark Tool Collection
+
+This document summarizes commonly used VPS performance testing scripts, covering CPU, disk, network, stress testing, and more. Works on Linux systems like Ubuntu/Debian/CentOS.
+
 # CPU Benchmark script for VPS
 Execute benchmark testing automatically and show detailed results online. 
 Powered by Geekbench.<br>
@@ -12,8 +16,9 @@ curl -L -o gk5.sh https://rebrand.ly/gk5 && bash gk5.sh
 Depends on CPU, around 1~5 minutes
 
 ## Sample results
-<img src="https://github.com/mikeyang01/benchmark-script/blob/master/gb5-sample.jpg" width="400">
-## part of Geekbench5 Test items
+<img src="https://github.com/mikeyang01/benchmark-script/blob/master/gb5-sample.jpg" width="300">
+
+## Geekbench5 Test items
 Single-Core & Multi-Core
   <br> AES-XTS
   <br> Text Compression
@@ -44,7 +49,82 @@ Download: 32.29 Mbit/s
 Testing upload speed..................................................
 Upload: 5.18 Mbit/s
 ```
-# GPU stress test on website
-https://cznull.github.io/vsbm
+# Other Famous Benchmark & Testing tools
+## ✅ LemonBench - Comprehensive Benchmark
 
-<img src="https://raw.githubusercontent.com/mikeyang01/benchmark-script/master/gpu_stress_test.jpeg" width="400">
+```bash
+curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s fast
+```
+
+---
+
+## ✅ SuperBench - China Network & Speed Test
+
+```bash
+bash <(curl -Lso- https://git.io/superbench)
+```
+
+---
+
+## ✅ YABS (Yet Another Benchmark Script)
+
+```bash
+curl -sL yabs.sh | bash
+```
+
+---
+
+## ✅ Speedtest (Official CLI)
+
+```bash
+curl -s https://install.speedtest.net/app/cli/install.sh | bash
+speedtest
+```
+
+---
+
+## ✅ iperf3 - Network Throughput Test
+
+```bash
+# On the server side:
+iperf3 -s
+
+# On the client side:
+iperf3 -c <server-ip>
+```
+
+---
+
+## ✅ stress-ng - CPU, Memory, I/O Stress Test
+
+```bash
+sudo apt install -y stress-ng
+stress-ng --cpu 4 --io 2 --vm 2 --timeout 60s
+```
+
+---
+
+## ✅ fio - Disk I/O Performance Test
+
+```bash
+sudo apt install -y fio
+fio --name=test --size=1G --filename=testfile --bs=4k --rw=randrw --ioengine=libaio --iodepth=64 --runtime=60 --numjobs=4 --group_reporting
+```
+
+---
+
+## ✅ BestTrace - Traceroute Visualization
+
+```bash
+wget https://cdn.ipip.net/17mon/besttrace4linux.zip
+unzip besttrace4linux.zip
+chmod +x besttrace
+./besttrace -q 1 <ip-address>
+```
+
+## ✅ GPU Stress Test (Web-based)
+
+Open browser and visit: [https://cznull.github.io/vsbm](https://cznull.github.io/vsbm)
+
+<img src="https://raw.githubusercontent.com/mikeyang01/benchmark-script/master/gpu_stress_test.jpeg" width="300">
+
