@@ -79,23 +79,10 @@ curl -sL yabs.sh | bash
 Global speed test tool providing upload, download, and latency stats.
 
 ```bash
-curl -s https://install.speedtest.net/app/cli/install.sh | bash
-speedtest
+sudo apt-get install curl
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install speedtest
 ```
-
----
-
-### **iperf3** – Network Throughput Testing  
-Measures bandwidth between a VPS and a client device.
-
-```bash
-# On the server:
-iperf3 -s
-
-# On the client:
-iperf3 -c <server-ip>
-```
-
 ---
 
 ## 🧠 CPU / Memory Stress Tools
