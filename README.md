@@ -1,5 +1,7 @@
 # VPS Benchmark Tool Collection
 
+English | [简体中文](README.zh-CN.md)
+
 This document summarizes commonly used VPS performance testing scripts, covering CPU, disk, network, stress testing, and more. Works on Linux systems like Ubuntu/Debian/CentOS.
 
 # CPU Benchmark script for VPS
